@@ -1,0 +1,17 @@
+Package: formatFileAddin
+Type: Package
+Title: RStudio Addin to Reformat R Files
+Version: 0.1.0
+Author: Álvaro Brey Vilas
+Maintainer: Álvaro Brey Vilas <alvaro.brv@gmail.com>
+Description: RStudio addin to reformat current file with formatR
+Depends:
+    R (>= 3.0.0)
+Imports:
+    rstudioapi (>= 0.4),
+    formatR,
+    evaluate
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.0.1

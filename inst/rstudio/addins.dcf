@@ -1,0 +1,4 @@
+Name: Reformat File
+Description: Reformats current file using formatR
+Binding: reformatFileAddin
+Interactive: false
