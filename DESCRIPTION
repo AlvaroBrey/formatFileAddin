@@ -9,8 +9,7 @@ Depends:
     R (>= 3.0.0)
 Imports:
     rstudioapi (>= 0.4),
-    formatR,
-    evaluate
+    formatR
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
