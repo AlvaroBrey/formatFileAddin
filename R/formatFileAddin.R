@@ -4,7 +4,7 @@
 #'
 reformatFileAddin <- function() {
     # Get the document data
-    context <- rstudioapi::getActiveDocumentContext()
+    context <- rstudioapi::getSourceEditorContext()
     docId <- context$id
 
     # If there's a selection, format that
@@ -17,8 +17,8 @@ reformatFileAddin <- function() {
         # If not, try to format the whole file. Check if it's a R file
         docPath <- context$path
         sp <- strsplit(x = docPath, split = ".", fixed = TRUE)
-        t <-sp[[1]]
-        ext<- t[length(t)]
+        t <- sp[[1]]
+        ext <- t[length(t)]
         if (length(ext) && tolower(ext) == "r") {
             docContents <- context$contents
             # Reformat it
