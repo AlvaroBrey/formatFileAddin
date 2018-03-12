@@ -26,4 +26,4 @@ You can:
  * Bind it to a keyboard shortcut (`Tools > Addins > Keyboard Shortcuts`), or
  * Use it directly from the `Addins` dropdown toolbar
 
-In any case the focus needs to be in the sources editor, and a R file has to be the selected tab. Otherwise you'll get an error message.
+You can either select a code chunk beforehand to format only that chunk, or not select anything in order to have the whole file formatted.
